@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="Assignment5.Form"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Text layoutX="158.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhap Thong Tin Sinh Vien" textAlignment="CENTER" wrappingWidth="265.13671875">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtName" layoutX="116.0" layoutY="64.0" prefHeight="52.0" prefWidth="369.0" text="Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtAge" layoutX="116.0" layoutY="148.0" prefHeight="52.0" prefWidth="369.0" text="Age">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtMark" layoutX="116.0" layoutY="231.0" prefHeight="52.0" prefWidth="369.0" text="Mark">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Button onAction="#submitStudent" layoutX="212.0" layoutY="301.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="158.0" text="Sumit">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
